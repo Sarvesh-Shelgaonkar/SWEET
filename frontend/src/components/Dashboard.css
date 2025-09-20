@@ -1,0 +1,50 @@
+.dashboard-container {
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard-heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .sweet-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .sweet-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .sweet-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .purchase-btn {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #28a745;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .purchase-btn:hover {
+    background-color: #218838;
+  }
+  
+  .purchase-btn.disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  

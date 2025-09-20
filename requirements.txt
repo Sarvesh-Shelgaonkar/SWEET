@@ -1,0 +1,18 @@
+steps to clone the repo:
+git clone https://github.com/vidhikoul/tdd-sweet_shop_management.git
+
+//backend 
+cd backend
+npm install express mongoose dotenv cors jsonwebtoken bcryptjs
+npm install --save-dev nodemon jest supertest @types/jest
+//run
+npm run dev
+
+//frontend
+cd frontend
+npm install axios react-router-dom
+//run
+npm start
+
+
+
